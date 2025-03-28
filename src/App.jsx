@@ -102,7 +102,7 @@ export default function App() {
       <div className="min-h-screen bg-white text-black font-sans">
         <header className="flex items-center justify-between px-6 py-4 shadow-md">
           <Link to="/">
-            <img src={logo} alt="Felix Automação" className="h-12 w-auto" />
+          <img src={logo} alt="Felix Automação" className="h-20 max-w-[240px] mx-auto" />
           </Link>
           <nav className="space-x-4 text-sm font-medium">
             <Link to="/solar" className="hover:underline">Energia Solar</Link>
